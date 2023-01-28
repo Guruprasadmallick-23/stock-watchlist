@@ -7,8 +7,8 @@
   position: sticky;
   top: 0;
 }
-.nav-main h1{
-  color: white;
+.nav-main img{
+  width: 60px;
 }
 .nav-list{
   display: flex;
