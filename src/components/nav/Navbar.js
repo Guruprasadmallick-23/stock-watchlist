@@ -4,6 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import "../../styles/navbar.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo-removebg-preview (1).png";
 
 const Navbar = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <Box className="nav-main">
-        <h1>GPM</h1>
+        <img src={logo} alt="logo" />
         <div className="nav-list">
           <Link to="/">Home</Link>
           <Link to="/watch-list">WatchList</Link>
